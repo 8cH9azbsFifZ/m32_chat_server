@@ -16,3 +16,7 @@ Additional features:
  * small delay is introduced (to avoid abuse)
  
 **Caution: UDP keepalive messages, while invisible, prevent your Morserino-32 from auto-shutdown!**
+
+## Build and Run using docker
++ `docker build . -t mopp_chat`
++ `docker run --rm -it -p 7373:7373 mopp_chat`
